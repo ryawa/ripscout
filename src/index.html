@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ripscout</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <input id="threshold" type="number" value="25" />
+    <select id="events"></select>
+    <select id="divisions"></select>
+    <table id="teams" border="1">
+      <thead>
+        <tr>
+          <th>Team #</th>
+          <th>Mean delta</th>
+          <th>Stddev</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
