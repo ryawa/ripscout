@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "ripscout",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
